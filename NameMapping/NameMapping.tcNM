@@ -3,6 +3,313 @@
 	<Storages Current="0">
 		<Child Name="Default Configuration" />
 	</Storages>
-	<Nodes Name="NameMapping" Key="{BE401E45-B2D6-4FBA-931A-C2117D5C51AD}" />
-	<LogicalNodes Name="Aliases" Owner="{BE401E45-B2D6-4FBA-931A-C2117D5C51AD}" />
+	<Nodes Name="NameMapping" Key="{BE401E45-B2D6-4FBA-931A-C2117D5C51AD}">
+		<Children>
+			<Child Name="Sys" Key="{EC857568-80C6-4831-B5E8-92340C528E84}">
+				<TypeInfo Item0="{3D2466ED-C12F-42E8-BE08-1C88BAE0E153}" />
+				<Properties>
+					<Property Name="Name">
+						<Value Value="Sys" />
+					</Property>
+				</Properties>
+				<Children>
+					<Child Name="browser" Key="{E4735DB9-836C-48A4-8615-93A61DBF42FD}">
+						<TypeInfo Item0="{93AB960E-723D-4346-8D7B-F8236C8BF484}" />
+						<Properties>
+							<Property Name="ObjectType">
+								<Value Value="Browser" />
+							</Property>
+						</Properties>
+						<Children>
+							<Child Name="pageLogin" Key="{BE6AE094-788F-4ABB-AA05-64625C04EC83}">
+								<Image FileName="-1968415104" Left="8" Top="84" Right="1358" Bottom="736" />
+								<TypeInfo Item0="{D0FB082B-4633-48BF-9EDD-DF70B83B2385}" />
+								<Properties>
+									<Property Name="ObjectType">
+										<Value Value="Page" />
+									</Property>
+									<Property Name="URL">
+										<Value Value="https://demo.openmrs.org/openmrs/login.htm" />
+									</Property>
+								</Properties>
+								<Children>
+									<Child Name="header" Key="{CF6CBD52-D85F-4E04-B8A5-A54DA47E679B}" ExtendedFind="True">
+										<Image FileName="-1968415104" Left="198" Top="94" Right="1168" Bottom="144" />
+										<TypeInfo Item0="{C44172AC-5632-40D8-B96C-C9CF7E69B298}" />
+										<Properties>
+											<Property Name="ObjectType">
+												<Value Value="Header" />
+											</Property>
+										</Properties>
+										<Children>
+											<Child Name="link" Key="{B6EAA187-CCA1-49E0-BAB8-A31EC48B656C}" ExtendedFind="True">
+												<Image FileName="-1968415104" Left="202" Top="106" Right="322" Bottom="128" />
+												<TypeInfo Item0="{7F10B924-44B4-4207-9CCD-DBCFBA961FE9}" />
+												<Properties>
+													<Property Name="ObjectType">
+														<Value Value="Link" />
+													</Property>
+												</Properties>
+												<Children>
+													<Child Name="imageOpenmrslogoPng" Key="{7C80F1DB-BEB8-4C27-B499-E8DE238275AE}" ExtendedFind="True">
+														<Image FileName="-1968415104" Left="202" Top="98" Right="322" Bottom="140" />
+														<TypeInfo Item0="{C44172AC-5632-40D8-B96C-C9CF7E69B298}" />
+														<Properties>
+															<Property Name="ObjectType">
+																<Value Value="Image" />
+															</Property>
+															<Property Name="ObjectIdentifier">
+																<Value Value="openMrsLogo_png" />
+															</Property>
+														</Properties>
+													</Child>
+												</Children>
+											</Child>
+										</Children>
+									</Child>
+									<Child Name="formLoginForm" Key="{0D9FDC50-28C5-48A5-8A3F-E01920BEF3A2}" ExtendedFind="True">
+										<Image FileName="970788429" Left="198" Top="164" Right="1168" Bottom="600" />
+										<TypeInfo Item0="{C44172AC-5632-40D8-B96C-C9CF7E69B298}" />
+										<Properties>
+											<Property Name="ObjectType">
+												<Value Value="Form" />
+											</Property>
+											<Property Name="idStr">
+												<Value Value="login-form" />
+											</Property>
+										</Properties>
+										<Children>
+											<Child Name="label" Key="{C4869400-AD7A-4E7F-B51D-9BB489905CFD}" ExtendedFind="True">
+												<Image FileName="970788429" Left="219" Top="234" Right="663" Bottom="258" />
+												<TypeInfo Item0="{FAEE454B-2B7A-4C0C-9189-60CD10508437}" />
+												<Properties>
+													<Property Name="ObjectType">
+														<Value Value="Label" />
+													</Property>
+													<Property Name="contentText">
+														<Value Value="Username:" />
+													</Property>
+												</Properties>
+											</Child>
+											<Child Name="label2" Key="{FCFB73E5-77DE-45D2-B845-642B33FC8F55}" ExtendedFind="True">
+												<Image FileName="970788429" Left="683" Top="234" Right="1127" Bottom="258" />
+												<TypeInfo Item0="{FAEE454B-2B7A-4C0C-9189-60CD10508437}" />
+												<Properties>
+													<Property Name="ObjectType">
+														<Value Value="Label" />
+													</Property>
+													<Property Name="contentText">
+														<Value Value="Password:" />
+													</Property>
+												</Properties>
+											</Child>
+											<Child Name="fieldsetLogin" Key="{0EF641D9-04F9-4FE7-85CB-DBD9EEB3E0CC}">
+												<Image FileName="-997517615" Left="210" Top="174" Right="1156" Bottom="590" />
+												<TypeInfo Item0="{BDD22FE0-680B-4F8B-BE87-20F51CD38730}" />
+												<Properties>
+													<Property Name="ObjectType">
+														<Value Value="Fieldset" />
+													</Property>
+												</Properties>
+												<Children>
+													<Child Name="submitbuttonLogIn" Key="{96E725A4-9FA8-4AD4-8D53-E9961D0CD213}" ExtendedFind="True">
+														<Image FileName="-997517615" Left="1000" Top="487" Right="1127" Bottom="524" />
+														<TypeInfo Item0="{B8F9F248-221A-48A4-A69D-50449355B09B}" />
+														<Properties>
+															<Property Name="ObjectType">
+																<Value Value="SubmitButton" />
+															</Property>
+															<Property Name="idStr">
+																<Value Value="loginButton" />
+															</Property>
+														</Properties>
+													</Child>
+													<Child Name="textnodeRegistrationDesk" Key="{942A4A7E-0DFB-42D1-AC65-851F58D0D670}" ExtendedFind="True">
+														<Image FileName="1947793082" Left="788" Top="426" Right="1038" Bottom="461" />
+														<TypeInfo Item0="{FAEE454B-2B7A-4C0C-9189-60CD10508437}" />
+														<Properties>
+															<Property Name="ObjectType">
+																<Value Value="TextNode" />
+															</Property>
+															<Property Name="idStr">
+																<Value Value="Registration Desk" />
+															</Property>
+														</Properties>
+													</Child>
+												</Children>
+											</Child>
+										</Children>
+									</Child>
+									<Child Name="textboxUsername" Key="{3F97277E-1E96-4366-8944-17234A0CD8EA}" ExtendedFind="True">
+										<Image FileName="-657218263" Left="219" Top="263" Right="663" Bottom="303" />
+										<TypeInfo Item0="{A5A1711B-3843-460D-8B9B-5BF2269027D9}" />
+										<Properties>
+											<Property Name="ObjectType">
+												<Value Value="Textbox" />
+											</Property>
+											<Property Name="idStr">
+												<Value Value="username" />
+											</Property>
+										</Properties>
+									</Child>
+									<Child Name="passwordboxPassword" Key="{93911105-26E6-40B0-AE9A-F4F68193FC84}" ExtendedFind="True">
+										<Image FileName="-134087271" Left="683" Top="263" Right="1127" Bottom="303" />
+										<TypeInfo Item0="{A5A1711B-3843-460D-8B9B-5BF2269027D9}" />
+										<Properties>
+											<Property Name="ObjectType">
+												<Value Value="PasswordBox" />
+											</Property>
+											<Property Name="idStr">
+												<Value Value="password" />
+											</Property>
+										</Properties>
+									</Child>
+								</Children>
+							</Child>
+							<Child Name="pageHome" Key="{FCEE8D84-879C-4D82-995C-7A853E6EA723}">
+								<Image FileName="1963869191" Left="8" Top="84" Right="1358" Bottom="736" />
+								<TypeInfo Item0="{D0FB082B-4633-48BF-9EDD-DF70B83B2385}" />
+								<Properties>
+									<Property Name="ObjectType">
+										<Value Value="Page" />
+									</Property>
+									<Property Name="URL">
+										<Value Value="https://demo.openmrs.org/openmrs/referenceapplication/home.page" />
+									</Property>
+								</Properties>
+								<Children>
+									<Child Name="header" Key="{2AE67841-2ABC-484B-BE74-E638E5960AC6}" ExtendedFind="True">
+										<Image FileName="1963869191" Left="183" Top="94" Right="1183" Bottom="145" />
+										<TypeInfo Item0="{C44172AC-5632-40D8-B96C-C9CF7E69B298}" />
+										<Properties>
+											<Property Name="ObjectType">
+												<Value Value="Header" />
+											</Property>
+										</Properties>
+										<Children>
+											<Child Name="textnode" Key="{7F22232B-8166-45B8-B1AC-B527A2F57577}" ExtendedFind="True">
+												<Image FileName="1963869191" Left="743" Top="105" Right="849" Bottom="134" />
+												<TypeInfo Item0="{FAEE454B-2B7A-4C0C-9189-60CD10508437}" />
+												<Properties>
+													<Property Name="ObjectType">
+														<Value Value="TextNode" />
+													</Property>
+													<Property Name="contentText">
+														<Value Value="610064006D0069006E000A004D00790020004100630063006F0075006E007400" Type="7" />
+													</Property>
+												</Properties>
+											</Child>
+											<Child Name="nav" Key="{B0C50623-824A-47DB-B7AF-8249F30DD451}" ExtendedFind="True">
+												<Image FileName="1488563126" Left="183" Top="94" Right="1183" Bottom="145" />
+												<TypeInfo Item0="{8F5F6274-9F59-4911-BFE4-0F9B8BE69746}" />
+												<Properties>
+													<Property Name="ObjectType">
+														<Value Value="Nav" />
+													</Property>
+												</Properties>
+												<Children>
+													<Child Name="link" Key="{6C5BAD7D-8603-4325-8545-D013F921AD2D}" ExtendedFind="True">
+														<Image FileName="1488563126" Left="869" Top="106" Right="1058" Bottom="133" />
+														<TypeInfo Item0="{7F10B924-44B4-4207-9CCD-DBCFBA961FE9}" />
+														<Properties>
+															<Property Name="ObjectType">
+																<Value Value="Link" />
+															</Property>
+															<Property Name="contentText">
+																<Value Value="Registration Desk" />
+															</Property>
+														</Properties>
+														<Children>
+															<Child Name="textnodeSelectedLocation" Key="{7805882F-1049-423B-8170-C7A4270797F0}" ExtendedFind="True">
+																<Image FileName="1488563126" Left="905" Top="109" Right="1035" Bottom="131" />
+																<TypeInfo Item0="{FAEE454B-2B7A-4C0C-9189-60CD10508437}" />
+																<Properties>
+																	<Property Name="ObjectType">
+																		<Value Value="TextNode" />
+																	</Property>
+																	<Property Name="idStr">
+																		<Value Value="selected-location" />
+																	</Property>
+																</Properties>
+															</Child>
+														</Children>
+													</Child>
+												</Children>
+											</Child>
+											<Child Name="link" Key="{CAA92388-DF73-465F-A670-EEEC8FD67D83}" ExtendedFind="True">
+												<Image FileName="-551774467" Left="1079" Top="108" Right="1167" Bottom="130" />
+												<TypeInfo Item0="{7F10B924-44B4-4207-9CCD-DBCFBA961FE9}" />
+												<Properties>
+													<Property Name="ObjectType">
+														<Value Value="Link" />
+													</Property>
+													<Property Name="contentText">
+														<Value Value="Logout" />
+													</Property>
+												</Properties>
+											</Child>
+										</Children>
+									</Child>
+									<Child Name="nav" Key="{42F549D8-5B90-413A-8EA5-22AC3F8D8391}" ExtendedFind="True">
+										<Image FileName="-358746810" Left="183" Top="94" Right="1183" Bottom="145" />
+										<Properties>
+											<Property Name="ObjectType">
+												<Value Value="Nav" />
+											</Property>
+										</Properties>
+									</Child>
+								</Children>
+							</Child>
+							<Child Name="BrowserWindow" Key="{1F0C6EDC-9B16-46FD-8918-0DD4527F8FEC}">
+								<Image FileName="-139458542" Left="0" Top="0" Right="1366" Bottom="744" />
+								<TypeInfo Item0="{7FEFCAA2-FB02-4F08-9327-DFDF9C3A1177}" />
+								<Properties>
+									<Property Name="ObjectType">
+										<Value Value="BrowserWindow" />
+									</Property>
+									<Property Name="ObjectIdentifier">
+										<Value Value="0" Type="0" />
+									</Property>
+								</Properties>
+							</Child>
+						</Children>
+					</Child>
+				</Children>
+			</Child>
+		</Children>
+	</Nodes>
+	<LogicalNodes Name="Aliases" Owner="{BE401E45-B2D6-4FBA-931A-C2117D5C51AD}">
+		<Child Name="browser" Owner="{E4735DB9-836C-48A4-8615-93A61DBF42FD}">
+			<Child Name="pageLogin" Owner="{BE6AE094-788F-4ABB-AA05-64625C04EC83}">
+				<Child Name="header" Owner="{CF6CBD52-D85F-4E04-B8A5-A54DA47E679B}">
+					<Child Name="link" Owner="{B6EAA187-CCA1-49E0-BAB8-A31EC48B656C}">
+						<Child Name="imageOpenmrslogoPng" Owner="{7C80F1DB-BEB8-4C27-B499-E8DE238275AE}" />
+					</Child>
+				</Child>
+				<Child Name="formLoginForm" Owner="{0D9FDC50-28C5-48A5-8A3F-E01920BEF3A2}">
+					<Child Name="label" Owner="{C4869400-AD7A-4E7F-B51D-9BB489905CFD}" />
+					<Child Name="label2" Owner="{FCFB73E5-77DE-45D2-B845-642B33FC8F55}" />
+					<Child Name="fieldsetLogin" Owner="{0EF641D9-04F9-4FE7-85CB-DBD9EEB3E0CC}">
+						<Child Name="submitbuttonLogIn" Owner="{96E725A4-9FA8-4AD4-8D53-E9961D0CD213}" />
+						<Child Name="textnodeRegistrationDesk" Owner="{942A4A7E-0DFB-42D1-AC65-851F58D0D670}" />
+					</Child>
+				</Child>
+				<Child Name="textboxUsername" Owner="{3F97277E-1E96-4366-8944-17234A0CD8EA}" />
+				<Child Name="passwordboxPassword" Owner="{93911105-26E6-40B0-AE9A-F4F68193FC84}" />
+			</Child>
+			<Child Name="pageHome" Owner="{FCEE8D84-879C-4D82-995C-7A853E6EA723}">
+				<Child Name="header" Owner="{2AE67841-2ABC-484B-BE74-E638E5960AC6}">
+					<Child Name="textnode" Owner="{7F22232B-8166-45B8-B1AC-B527A2F57577}" />
+					<Child Name="nav" Owner="{B0C50623-824A-47DB-B7AF-8249F30DD451}">
+						<Child Name="link" Owner="{6C5BAD7D-8603-4325-8545-D013F921AD2D}">
+							<Child Name="textnodeSelectedLocation" Owner="{7805882F-1049-423B-8170-C7A4270797F0}" />
+						</Child>
+					</Child>
+					<Child Name="link" Owner="{CAA92388-DF73-465F-A670-EEEC8FD67D83}" />
+				</Child>
+				<Child Name="nav" Owner="{42F549D8-5B90-413A-8EA5-22AC3F8D8391}" />
+			</Child>
+			<Child Name="BrowserWindow" Owner="{1F0C6EDC-9B16-46FD-8918-0DD4527F8FEC}" />
+		</Child>
+	</LogicalNodes>
 </Root>

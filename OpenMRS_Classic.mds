@@ -8,9 +8,22 @@
 	</children>
 	<config language="{897793E3-73F3-4895-A956-3D41D3A24A45}" />
 	<testItems key="{5E1A6147-9223-45FA-BF6D-23D1077C9EAF}" version="14">
-		<children />
+		<children>
+			<testItem name="ProjectTestItem1" key="{BAAA7029-A356-4343-BDF0-CB508672EDEB}" group="False" enabled="True" testMoniker="KDT\{7287D910-1AF5-4D0B-83F8-95AB20DB86B2}" count="1" timeout="0" stopOnError="3" stopOnException="2" description="" tmsData="" testCase="True">
+				<testParameters />
+				<children />
+			</testItem>
+		</children>
 	</testItems>
-	<variables key="{6D474D65-7B0D-4B4A-9803-CAEA5CFE4897}" />
+	<variables key="{6D474D65-7B0D-4B4A-9803-CAEA5CFE4897}">
+		<data Version="4">
+			<Items>
+				<Variable Name="Password1" Type="Password" Local="False">
+					<DefValue StrValue="38003900360031003900330044003100460034004400380046003300460031004500430039004300320037003900320044004100460043003000330037004100380045003100440045003200370041004200340030003400310043003600430037003700360044004400370042003000" />
+				</Variable>
+			</Items>
+		</data>
+	</variables>
 	<settings key="{8D6306B0-C00D-4555-9D9F-16FC13923398}">
 		<settingsVersion value="14.50" />
 		<setting name="AgOpenApp_ExtendedSilverlightObjectTree" type="1" value="False" />
